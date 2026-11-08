@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    
+    
+    <!-- نویگیشن -->
+
+
+<header>
+
+    <div class="nav d-flex align-items-center justify-content-between pe-3 ps-1">
+
+        <ul class="nav-01 d-flex align-items-center justify-content-center mb-0 pb-0 ps-0">
+            <li class="d-flex me-5"><a href="#"><img src="./images/VIS_toyota_logo_horiz_black_RGB_2023.svg" alt="logo toyota"></a></li>
+            <li class="d-lg-flex d-none px-4 fw-bold"><a href="#" class="nav-a">Vehicles</a></li>
+            <li class="d-lg-flex d-none px-4 fw-bold"><a href="#" class="nav-a">Shop</a></li>
+            <li class="d-lg-flex d-none px-4 fw-bold"><a href="#" class="nav-a">Support & Service</a></li>
+        </ul>
+        
+        <ul class="nav-02 d-flex mb-0 pb-0 gap-4 ">
+
+            <!-- ایکون پروفایل -->
+            <li class="nav-02-01 d-flex align-items-center justify-content-center">
+                <a href="#" class="nav-a d-flex align-items-center">
+                    <svg class="me-lg-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                    </svg>
+                    <span class="d-none d-lg-flex fw-bold">Account</span>
+                </a>
+            </li>
+            
+
+            <!-- منو همبرگری -->
+             <li class="nav-02-02 nav-02svg02 d-flex d-lg-none "><a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                stroke-width="1.5" stroke="currentColor" width="32" height="32">
+               <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+           </svg>
+            </a></li>
+        </ul>
+        
+    </div>
+
+</header>
+
+<main>
+
+    <!-- معرفی اسلایدی خودرو -->
+     <!-- اسلایدر اول -->
+
+    <div id="carouselExampleAutoplaying" class="carousel-toyota carousel slide carousel-fade"
+    data-bs-ride="carousel" data-bs-interval="4000" data-bs-pause="false">
+
+        <div class="carousel-inner position-relative">
+
+            <div class="carousel-item hero-item active"> <!-- آیتم 1 -->
+                <img src="./images/hero/1-hero.jpg" class="d-block px-0 mx-0 w-100" alt="Toyota 1">
+
+                <div class="text-carousel position-absolute d-flex flex-column align-items-center justify-content-center mx-auto start-0 end-0 fw-bold ">
+                    <h2 class="fs-4 fw-bold">2027 bz</h2>
+                    <p class="fs-6 fw-bold">Electric exhilaration</p>
+                </div>
+
+                <a href="#" class="carousel-learn-more position-absolute d-flex align-items-center justify-content-center bg-white rounded-5 start-0 end-0 mx-auto">
+                    Learn More
+                </a>
+                <a href="#" class="carousel-info position-absolute d-flex align-items-center justify-content-center bg-black rounded-5">
+                    Info
+                </a>
+
+                 <!-- دکمه پلی -->
+                 <a href="#" class="button-play position-absolute d-flex align-items-center justify-content-center start-0 bottom-0 ms-4 mb-4 bg-white rounded-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 5.25v13.5m-7.5-13.5v13.5" />
+                    </svg>
+                </a>
+            </div>
+            
+
+            <div class="carousel-item hero-item"> <!-- آیتم 2 -->
+                <img src="./images/hero/2-hero.jpg" class="d-block w-100" alt="Toyota 2">
+
+                <div class="text-carousel position-absolute d-flex flex-column align-items-center justify-content-center mx-auto start-0 end-0 fw-bold ">
+                    <h2 class="fs-4 fw-bold">2027 Camry</h2>
+                    <p class="fs-6 fw-bold">Set the vibe.</p>
+                </div>
+
+                <a href="#" class="carousel-learn-more position-absolute d-flex align-items-center justify-content-center bg-white rounded-5 start-0 end-0 mx-auto">
+                    Learn More
+                </a>
+                <a href="#" class="carousel-info position-absolute d-flex align-items-center justify-content-center bg-black rounded-5">
+                    Info
+                </a>
+
+                <!-- دکمه پلی -->
+                <a href="#" class="button-play position-absolute d-flex align-items-center justify-content-center start-0 bottom-0 ms-4 mb-4 bg-white rounded-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 5.25v13.5m-7.5-13.5v13.5" />
+                    </svg>
+                </a>
+            </div>
+            
+            <div class="carousel-item hero-item" data-bs-interval="8000"> <!-- آیتم 3 -->
+                <video src="./media/TYSB1698000H.mp4" class="d-block w-100" autoplay muted loop 
+                playsinline></video>
+
+                <div class="text-carousel-video position-absolute d-flex flex-column align-items-center justify-content-center mx-auto start-0 end-0 fw-bold ">
+                    <h2 class="fs-4 fw-bold text-center">
+                        Lighting the way
+                        <br>
+                        for the next generation.
+                    </h2>
+                </div>
+
+                <a href="#" class="carousel-learn-more position-absolute d-flex align-items-center justify-content-center bg-white rounded-5 start-0 end-0 mx-auto">
+                    Learn More
+                </a>
+                <a href="#" class="carousel-info position-absolute d-flex align-items-center justify-content-center bg-black rounded-5">
+                    Info
+                </a>
+
+              <!-- دکمه پلی -->
+              <a href="#" class="button-play position-absolute d-flex align-items-center justify-content-center start-0 bottom-0 ms-4 mb-4 bg-white rounded-5">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 5.25v13.5m-7.5-13.5v13.5" />
+                </svg>
+                </a>
+            </div>
+            
+            <div class="carousel-item hero-item"> <!-- آیتم 4 -->
+                <img src="./images/hero/4-hero.jpg" class="d-block w-100" alt="Toyota 4">
+
+                <div class="text-carousel position-absolute d-flex flex-column align-items-center justify-content-center mx-auto start-0 end-0 fw-bold ">
+                    <h2 class="fs-4 fw-bold">2027 Prius</h2>
+                    <p class="fs-6 fw-bold">Powerfully dynamic.</p>
+                </div>
+
+                <a href="#" class="carousel-learn-more position-absolute d-flex align-items-center justify-content-center bg-white rounded-5 start-0 end-0 mx-auto">
+                    Learn More
+                </a>
+                <a href="#" class="carousel-info position-absolute d-flex align-items-center justify-content-center bg-black rounded-5">
+                    Info
+                </a>
+
+                <!-- دکمه پلی -->
+                <a href="#" class="button-play position-absolute d-flex align-items-center justify-content-center start-0 bottom-0 ms-4 mb-4 bg-white rounded-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 5.25v13.5m-7.5-13.5v13.5" />
+                    </svg>
+                </a>
+            </div>
+            
+            <div class="carousel-item hero-item"> <!-- آیتم 5 -->
+                <img src="./images/hero/5-hero.jpg" class="d-block w-100" alt="Toyota 5">
+
+                <div class="text-carousel position-absolute d-flex flex-column align-items-center justify-content-center mx-auto start-0 end-0 fw-bold ">
+                    <h2 class="fs-4 fw-bold">2027 Corolla</h2>
+                    <p class="fs-6 fw-bold">From past to present, the journey continues.</p>
+                </div>
+
+                <a href="#" class="carousel-learn-more position-absolute d-flex align-items-center justify-content-center bg-white rounded-5 start-0 end-0 mx-auto">
+                    Learn More
+                </a>
+                <a href="#" class="carousel-info position-absolute d-flex align-items-center justify-content-center bg-black rounded-5">
+                    Info
+                </a>
+
+                <!-- دکمه پلی -->
+                <a href="#" class="button-play position-absolute d-flex align-items-center justify-content-center start-0 bottom-0 ms-4 mb-4 bg-white rounded-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 5.25v13.5m-7.5-13.5v13.5" />
+                    </svg>
+                </a>
+            </div>
+            
+        </div>
+
+        <div class="carousel-indicators position-absolute mb-0 mx-0">
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true"          aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+
+        <button class="d-none d-lg-flex bg-black my-auto ms-5 carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="d-none d-lg-flex bg-black my-auto me-5 carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+    </div>
+
+    <!-- پایان اسلایدر اول -->
+
+
+    <!--------------------  -------------------->
+    
+<!---------- بررسی اسلایدری خودرو ---------->
+<!---------- اسلایدر دوم ---------->
+
+    
+
+<section class="container-fluid pe-0 ps-4 pe-4">
+    <h2 class="text-center fw-bold mb-3 mt-5">Explore All Vehicles</h2>
+
+    <!-- منو لیست 1 -->
+    <div class="list-carousel d-none d-lg-flex mb-4">
+        <ul class="d-flex align-items-center justify-content-center text-center list-unstyled mt-5 mb-0 mx-auto p-0">
+            <li class="px-4 py-3"><a href="#" class="text-decoration-none text-black">Cars & Minivan</a></li>
+            <li class="px-4 py-3"><a href="#" class="text-decoration-none text-black">Trucks</a></li>
+            <li class="px-4 py-3 list-carousel-item"><a href="#" class="text-decoration-none text-black fw-bold">Crossovers & SUVs</a></li>
+            <li class="px-4 py-3"><a href="#" class="text-decoration-none text-black">Electrified</a></li>
+            <li class="px-4 py-3"><a href="#" class="text-decoration-none text-black">Upcoming Vehicles</a></li>
+        </ul>
+    </div>
+
+    <!-- منو لیست 2 -->
+    <div class="d-flex justify-content-center d-lg-none mt-5 mb-4">
+        <div class="my-button border border-secondary rounded px-3 py-2 bg-white text-black d-flex align-items-center">
+            <span>Crossovers & SUVs</span>
+            <i class="bi bi-chevron-down ms-3"></i>
+            <!-- <i class="bi bi-chevron-up ms-3"></i> -->
+        </div>
+    </div>
+
+
+    <div id="carsCarousel" class="carousel slide">
+
+        <!-- carousel-item -->
+        <div class="carousel-inner">
+
+            <!-- اسلاید 1: کارت 1 و 2 -->
+            <div class="carousel-item active">
+                <div class="row g-3 justify-content-center">
+
+                    <!-- کارت شماره 1 -->
+                    <div class="col-12 col-md-8 col-lg-6">
+                        <div class="card border-0 overflow-hidden h-100">
+                            <div class="row g-0 h-100">
+
+                                <div class="img-card col-12 col-lg-7 position-relative">
+                                    <img src="./images/car-slide/1.jpg" class="car-img object-fit-cover w-100 " alt="Car 1">
+                                
+                                    <span class="badge text-bg-dark position-absolute top-0 start-0 m-2">Hybrid EV Available</span>
+                                    
+                                    <p class="position-absolute bottom-0 start-0 end-0 m-0 p-2 text-white text-center small bg-dark bg-opacity-50">As shown: $32,857. 31/33 MPG Est.  City/Hwy Rating*</p>
+                                </div>
+
+
+                                <div class="car-info col-12 col-lg-5 d-flex flex-column justify-content-between justify-content-lg-center p-4 ">
+                                    <p class="mb-2">2026</p>
+                                    <h5 class="fw-bold">Corolla Cross</h5>
+                                    <p>Find your perfect fit.</p>
+
+                                    <div class="d-flex gap-3 mt-4">
+                                        <div>
+                                            <p class="fs-4 mb-0">$25,335</p>
+                                            <small>Starting MSRP*</small>
+                                        </div>
+                                        <div>
+                                            <p class="fs-4 mb-0">31/33</p>
+                                            <small>Est. City/Hwy <br> MPG Rating*</small>
+                                        </div>
+                                    </div>
+
+                                    <!-- دکمه‌های کارت -->
+                                    <div class="button-card d-flex align-items-center gap-4 mt-5">
+                                        <a href="#" class="btn btn-light rounded-5 px-4 fw-bold">Explore</a>
+                                        <a href="#" class="text-black fw-bold text-decoration-none text-nowrap">Build &gt;</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- کارت شماره 2 -->
+                    <div class="col-12 col-lg-6 d-none d-lg-block">
+                        <div class="card border-0 overflow-hidden h-100">
+                            <div class="row g-0 h-100">
+             
+                                <div class="img-card col-12 col-lg-7 position-relative">
+                                    <img src="./images/car-slide/2.jpg" class="car-img w-100 object-fit-cover" alt="Car 2">
+                                    
+                                    <span class="badge text-bg-dark position-absolute top-0 start-0 m-2">Hybrid EV</span>
+                                 
+                                    <p class="position-absolute bottom-0 start-0 end-0 m-0 p-2 text-white text-center small bg-dark bg-opacity-50">As shown: $45,140. * 44/39 MPG Est. City/Hwy Rating *</p>
+                                </div>
+
+                                <div class="car-info col-12 col-lg-5 d-flex flex-column justify-content-between justify-content-lg-center p-4">
+                                    <p class="mb-2">2026</p>
+                                    <h5 class="fw-bold">RAV4 </h5>
+                                    <p>Grab life and go. </p>
+
+                                    <div class="d-flex gap-3 mt-4">
+                                        <div>
+                                            <p class="fs-4 mb-0">$31,900 </p>
+                                            <small>Starting MSRP*</small>
+                                        </div>
+                                        <div>
+                                            <p class="fs-4 mb-0">44/38</p>
+                                            <small>Up to Est. City/Hwy <br>
+                                                MPG Rating * </small>
+                                        </div>
+                                    </div>
+
+                                    <!-- دکمه‌های کارت -->
+                                    <div class="d-flex align-items-center gap-4 mt-4 mt-5">
+                                        <a href="#" class="btn btn-light rounded-5 px-4 fw-bold">Explore</a>
+                                        <a href="#" class="text-black fw-bold text-decoration-none text-nowrap">Build &gt;</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- اسلاید 2: شامل کارت 3 و 4 -->
+            <div class="carousel-item">
+                <div class="row g-3 justify-content-center">
+
+                    <!-- کارت شماره 3 -->
+                    <div class="col-12 col-md-8 col-lg-6">
+                        <div class="card border-0 overflow-hidden h-100">
+                            <div class="row g-0 h-100">
+
+                                <div class="img-card col-12 col-lg-7 position-relative">
+                                    <img src="./images/car-slide/3.jpg" class="car-img w-100 object-fit-cover" alt="Car 3">
+                                 
+                                    <span class="badge text-bg-dark position-absolute top-0 start-0 m-2">Plug-in Hybrid EV</span>
+                                  
+                                    <p class="position-absolute bottom-0 start-0 end-0 m-0 p-2 text-white text-center small bg-dark bg-opacity-50">As shown: $49,475. * 36/94 MPG/MPGe Est. Combined Rating *</p>
+                                </div>
+
+                                <div class="car-info col-12 col-lg-5 d-flex flex-column justify-content-between justify-content-lg-center p-4">
+                                    <p class="mb-2">2026</p>
+                                    <h5 class="fw-bold">RAV4 Plug-in Hybrid </h5>
+                                    <p>Thrilling style. Powerful possibilities.</p>
+
+                                    <div class="d-flex gap-3 mt-4">
+                                        <div>
+                                            <p class="fs-4 mb-0">$41,500</p>
+                                            <small>Starting MSRP*</small>
+                                        </div>
+                                        <div>
+                                            <p class="fs-4 mb-0">40/102</p>
+                                            <small>Est. Combined <br>
+                                                MPG/MPGe Rating *</small>
+                                        </div>
+                                    </div>
+
+                                    <!-- دکمه‌های کارت -->
+                                    <div class="d-flex align-items-center gap-4 mt-4">
+                                        <a href="#" class="btn btn-light rounded-5 px-4 fw-bold">Explore</a>
+                                        <a href="#" class="text-black fw-bold text-decoration-none text-nowrap">Build &gt;</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- کارت شماره 4 -->
+                    <div class="col-12 col-lg-6 d-none d-lg-block">
+                        <div class="card border-0 overflow-hidden h-100">
+                            <div class="row g-0 h-100">
+
+                                <div class="img-card col-12 col-lg-7 position-relative">
+                                    <img src="./images/car-slide/4.jpg" class="car-img w-100 object-fit-cover" alt="Car 4">
+                                   
+                                    <span class="badge text-bg-dark position-absolute top-0 start-0 m-2">Battery EV</span>
+                                 
+                                    <p class="position-absolute bottom-0 start-0 end-0 m-0 p-2 text-white text-center small bg-dark bg-opacity-50">As shown: $43,380. * 278-Mile Est. Range Rating *</p>
+                                </div>
+
+                                <div class="car-info col-12 col-lg-5 d-flex flex-column justify-content-between justify-content-lg-center p-4">
+                                    <p class="mb-2">2027</p>
+                                    <h5 class="fw-bold">bZ </h5>
+                                    <p>Built to move you. Designed to electrify.</p>
+
+                                    <div class="d-flex gap-3 mt-4">
+                                        <div>
+                                            <p class="fs-4 mb-0">$34,980 </p>
+                                            <small>Starting MSRP*</small>
+                                        </div>
+                                        <div>
+                                            <p class="fs-4 mb-0">314 miles</p>
+                                            <small>Up to Est. <br>
+                                                Range Rating *</small>
+                                        </div>
+                                    </div>
+
+                                    <!-- دکمه‌های کارت -->
+                                    <div class="d-flex align-items-center gap-4 mt-4">
+                                        <a href="#" class="btn btn-light rounded-5 px-4 fw-bold">Explore</a>
+                                        <a href="#" class="text-black fw-bold text-decoration-none text-nowrap">Build &gt;</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- اسلاید 3: شامل کارت 5 و 6 -->
+            <div class="carousel-item">
+                <div class="row g-3 justify-content-center">
+
+                    <!-- کارت شماره 5 -->
+                    <div class="col-12 col-md-8 col-lg-6">
+                        <div class="card border-0 overflow-hidden h-100">
+                            <div class="row g-0 h-100">
+
+                                <div class="img-card col-12 col-lg-7 position-relative">
+                                    <img src="./images/car-slide/5.jpg" class="car-img w-100 object-fit-cover" alt="Car 5">
+                                 
+                                    <span class="badge text-bg-dark position-absolute top-0 start-0 m-2">Battery EV</span>
+                                 
+                                    <p class="position-absolute bottom-0 start-0 end-0 m-0 p-2 text-white text-center small bg-dark bg-opacity-50">As shown: $45,380 * 281-Mile Est. Range Rating *</p>
+                                </div>
+
+                                <div class="car-info col-12 col-lg-5 d-flex flex-column justify-content-between justify-content-lg-center p-4">
+                                    <p class="mb-2">2027</p>
+                                    <h5 class="fw-bold">bZ Woodland </h5>
+                                    <p>Equipped with all the things you <br> need to enjoy the journey.</p>
+
+                                    <div class="d-flex gap-3 mt-4">
+                                        <div>
+                                            <p class="fs-4 mb-0">$45,380</p>
+                                            <small>Starting MSRP*</small>
+                                        </div>
+                                        <div>
+                                            <p class="fs-4 mb-0">281 miles</p>
+                                            <small>Up to Est. <br>
+                                                Range Rating *</small>
+                                        </div>
+                                    </div>
+
+                                    <!-- دکمه‌های کارت -->
+                                    <div class="d-flex align-items-center gap-4 mt-4">
+                                        <a href="#" class="btn btn-light rounded-5 px-4 fw-bold">Explore</a>
+                                        <a href="#" class="text-black fw-bold text-decoration-none text-nowrap">Build &gt;</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- کارت شماره 6 -->
+                    <div class="col-12 col-lg-6 d-none d-lg-block">
+                        <div class="card border-0 overflow-hidden h-100">
+                            <div class="row g-0 h-100">
+
+                                <div class="img-card col-12 col-lg-7 position-relative">
+                                    <img src="./images/car-slide/6.jpg" class="car-img w-100 object-fit-cover" alt="Car 6">
+                                   
+                                    <span class="badge text-bg-dark position-absolute top-0 start-0 m-2">Battery EV</span>
+                                  
+                                    <p class="position-absolute bottom-0 start-0 end-0 m-0 p-2 text-white text-center small bg-dark bg-opacity-50">As shown: $37,080 * 287-Mile Est. Range Rating *</p>
+                                </div>
+
+                                <div class="car-info col-12 col-lg-5 d-flex flex-column justify-content-between justify-content-lg-center p-4">
+                                    <p class="mb-2">2027</p>
+                                    <h5 class="fw-bold">C-HR </h5>
+                                    <p>Turn every drive into an inspiring ride. </p>
+
+                                    <div class="d-flex gap-3 mt-4">
+                                        <div>
+                                            <p class="fs-4 mb-0">$37,080</p>
+                                            <small>Starting MSRP*</small>
+                                        </div>
+                                        <div>
+                                            <p class="fs-4 mb-0">287 miles </p>
+                                            <small>Up to Est. <br>
+                                                Range Rating *</small>
+                                        </div>
+                                    </div>
+
+                                    <!-- دکمه‌های کارت -->
+                                    <div class="d-flex align-items-center gap-4 mt-5">
+                                        <a href="#" class="btn btn-light rounded-5 px-4 fw-bold">Explore</a>
+                                        <a href="#" class="text-black fw-bold text-decoration-none text-nowrap">Build &gt;</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- اسلاید 4: شامل کارت 7 و 8 -->
+            <div class="carousel-item">
+                <div class="row g-3 justify-content-center">
+
+                    <!-- کارت شماره 7 -->
+                    <div class="col-12 col-md-8 col-lg-6">
+                        <div class="card border-0 overflow-hidden h-100">
+                            <div class="row g-0 h-100">
+
+                                <div class="img-card col-12 col-lg-7 position-relative">
+                                    <img src="./images/car-slide/7.jpg" class="car-img w-100 object-fit-cover" alt="Car 7">
+                                  
+                                    <span class="badge text-bg-dark position-absolute top-0 start-0 m-2">Hybrid EV Available</span>
+                                
+                                    <p class="position-absolute bottom-0 start-0 end-0 m-0 p-2 text-white text-center small bg-dark bg-opacity-50">As shown: $53,925. * 21/28 MPG Est. City/Hwy Rating *</p>
+                                </div>
+
+                                <div class="car-info col-12 col-lg-5 d-flex flex-column justify-content-between justify-content-lg-center p-4">
+                                    <p class="mb-2">2026</p>
+                                    <h5 class="fw-bold">Highlander</h5>
+                                    <p>For life's biggest moments and everything else along the way.</p>
+
+                                    <div class="d-flex gap-3 mt-4">
+                                        <div>
+                                            <p class="fs-4 mb-0">$46,270</p>
+                                            <small>Starting MSRP *</small>
+                                        </div>
+                                        <div>
+                                            <p class="fs-4 mb-0">21/28 </p>
+                                            <small>Up to Est. City/Hwyv <br>
+                                                MPG Rating *</small>
+                                        </div>
+                                    </div>
+
+                                    <!-- دکمه‌های کارت -->
+                                    <div class="d-flex align-items-center gap-4 mt-4">
+                                        <a href="#" class="btn btn-light rounded-pill px-4 fw-bold">Explore</a>
+                                        <a href="#" class="text-black fw-bold text-decoration-none text-nowrap">Build &gt;</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- کارت شماره 8 -->
+                    <div class="col-12 col-lg-6 d-none d-lg-block">
+                        <div class="card border-0 overflow-hidden h-100">
+                            <div class="row g-0 h-100">
+
+                                <div class="img-card col-12 col-lg-7 position-relative">
+                                    <img src="./images/car-slide/8.jpg" class="car-img w-100 object-fit-cover" alt="Car 8">
+                                    
+                                    <span class="badge text-bg-dark position-absolute top-0 start-0 m-2">Hybrid EV Available
+                                    </span>
+                                   
+                                    <p class="position-absolute bottom-0 start-0 end-0 m-0 p-2 text-white text-center small bg-dark bg-opacity-50">As shown: $55,920 * 20/26 MPG Est. City/Hwy Rating *</p>
+                                </div>
+
+                                <div class="car-info col-12 col-lg-5 d-flex flex-column justify-content-between justify-content-lg-center p-4">
+                                    <p class="mb-2">2026</p>
+                                    <h5 class="fw-bold">Grand Highlander</h5>
+                                    <p>Capability, comfort and confidence—with room to spare.</p>
+
+                                    <div class="d-flex gap-3 mt-4">
+                                        <div>
+                                            <p class="fs-4 mb-0">$42,260</p>
+                                            <small>Starting MSRP *</small>
+                                        </div>
+                                        <div>
+                                            <p class="fs-4 mb-0">21/28</p>
+                                            <small>Up to Est. City/Hwy <br>
+                                                MPG Rating *</small>
+                                        </div>
+                                    </div>
+
+                                    <!-- دکمه‌های کارت -->
+                                    <div class="d-flex align-items-center gap-4 mt-4">
+                                        <a href="#" class="btn btn-light rounded-pill px-4 fw-bold">Explore</a>
+                                        <a href="#" class="text-black fw-bold text-decoration-none text-nowrap">Build &gt;</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- اسلاید 5: شامل کارت 9 و 10 -->
+            <div class="carousel-item">
+                <div class="row g-3 justify-content-center">
+
+                    <!-- کارت شماره 9 -->
+                    <div class="col-12 col-md-8 col-lg-6">
+                        <div class="card border-0 overflow-hidden h-100">
+                            <div class="row g-0 h-100">
+
+                                <div class="img-card col-12 col-lg-7 position-relative">
+                                    <img src="./images/car-slide/9.jpg" class="car-img w-100 object-fit-cover" alt="Car 9">
+                                  
+                                    <span class="badge text-bg-dark position-absolute top-0 start-0 m-2">Hybrid EV Available</span>
+                                
+                                    <p class="position-absolute bottom-0 start-0 end-0 m-0 p-2 text-white text-center small bg-dark bg-opacity-50">As shown: $57,435. * 19/25 MPG Est. City/Hwy Rating *</p>
+                                </div>
+
+                                <div class="car-info col-12 col-lg-5 d-flex flex-column justify-content-between justify-content-lg-center p-4">
+                                    <p class="mb-2">2026</p>
+                                    <h5 class="fw-bold">4Runner </h5>
+                                    <p>The ultimate companion for escape, fun and adventure.</p>
+
+                                    <div class="d-flex gap-3 mt-4">
+                                        <div>
+                                            <p class="fs-4 mb-0">$42,270 </p>
+                                            <small>Starting MSRP *</small>
+                                        </div>
+                                        <div>
+                                            <p class="fs-4 mb-0">20/26</p>
+                                            <small>Up to Est. City/Hwy <br>
+                                                MPG Rating *</small>
+                                        </div>
+                                    </div>
+
+                                    <!-- دکمه‌های کارت -->
+                                    <div class="d-flex align-items-center gap-4 mt-5">
+                                        <a href="#" class="btn btn-light rounded-5 px-4 fw-bold">Explore</a>
+                                        <a href="#" class="text-black fw-bold text-decoration-none text-nowrap">Build &gt;</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- کارت شماره 10 -->
+                    <div class="col-12 col-lg-6 d-none d-lg-block">
+                        <div class="card border-0 overflow-hidden h-100">
+                            <div class="row g-0 h-100">
+
+                                <div class="img-card col-12 col-lg-7 position-relative">
+                                    <img src="./images/car-slide/10.jpg" class="car-img w-100 object-fit-cover" alt="Car 10">
+                                    
+                                    <span class="badge text-bg-dark position-absolute top-0 start-0 m-2">Hybrid EV</span>
+                               
+                                    <p class="position-absolute bottom-0 start-0 end-0 m-0 p-2 text-white text-center small bg-dark bg-opacity-50">As shown: $51,630. * 39/37 MPG Est. City/Hwy Rating *</p>
+                                </div>
+
+                                <div class="car-info col-12 col-lg-5 d-flex flex-column justify-content-between justify-content-lg-center p-4">
+                                    <p class="mb-2">2027</p>
+                                    <h5 class="fw-bold">Toyota Crown Signia</h5>
+                                    <p>Seamlessly blend elevated elegance with ultimate comfort. </p>
+
+                                    <div class="d-flex gap-3 mt-4">
+                                        <div>
+                                            <p class="fs-4 mb-0">$44,890</p>
+                                            <small>Starting MSRP *</small>
+                                        </div>
+                                        <div>
+                                            <p class="fs-4 mb-0">39/37</p>
+                                            <small>Est. City/Hwy <br>
+                                                MPG Rating *</small>
+                                        </div>
+                                    </div>
+
+                                    <!-- دکمه‌های کارت -->
+                                    <div class="d-flex align-items-center gap-4 mt-4">
+                                        <a href="#" class="btn btn-light rounded-5 px-4 fw-bold">Explore</a>
+                                        <a href="#" class="text-black fw-bold text-decoration-none text-nowrap">Build &gt;</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- اسلاید 6: شامل کارت 11 و 12 -->
+            <div class="carousel-item">
+                <div class="row g-3 justify-content-center">
+
+                    <!-- کارت شماره 11 -->
+                    <div class="col-12 col-md-8 col-lg-6">
+                        <div class="card border-0 overflow-hidden h-100">
+                            <div class="row g-0 h-100">
+
+                                <div class="img-card col-12 col-lg-7 position-relative">
+                                    <img src="./images/car-slide/11.jpg" class="car-img w-100 object-fit-cover" alt="Car 11">
+                                    
+                                    <span class="badge text-bg-dark position-absolute top-0 start-0 m-2">Hybrid EV</span>
+                                   
+                                    <p class="position-absolute bottom-0 start-0 end-0 m-0 p-2 text-white text-center small bg-dark bg-opacity-50">As shown: $70,750 * 22/25 MPG Est. City/Hwy Rating *</p>
+                                </div>
+
+                                <div class="car-info col-12 col-lg-5 d-flex flex-column justify-content-between justify-content-lg-center p-4">
+                                    <p class="mb-2">2027</p>
+                                    <h5 class="fw-bold">Land Cruiser</h5>
+                                    <p>Built with the spirit of the original; engineered with the purpose of <br> today.</p>
+
+                                    <div class="d-flex gap-3 mt-4">
+                                        <div>
+                                            <p class="fs-4 mb-0">$58,180</p>
+                                            <small>Starting MSRP*</small>
+                                        </div>
+                                        <div>
+                                            <p class="fs-4 mb-0">22/25</p>
+                                            <small>Est. City/Hwy <br>
+                                                MPG Rating *</small>
+                                        </div>
+                                    </div>
+
+                                    <!-- دکمه‌های کارت -->
+                                    <div class="d-flex align-items-center gap-4 mt-4">
+                                        <a href="#" class="btn btn-light rounded-pill px-4 fw-bold">Explore</a>
+                                        <a href="#" class="text-black fw-bold text-decoration-none text-nowrap">Build &gt;</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- کارت شماره 12 -->
+                    <div class="col-12 col-lg-6 d-none d-lg-block">
+                        <div class="card border-0 overflow-hidden h-100">
+                            <div class="row g-0 h-100">
+
+                                <div class="img-card col-12 col-lg-7 position-relative">
+                                    <img src="./images/car-slide/12.jpg" class="car-img w-100 object-fit-cover" alt="Car 12">
+                                    
+                                    <span class="badge text-bg-dark position-absolute top-0 start-0 m-2">Hybrid EV</span>
+                                    
+                                    <p class="position-absolute bottom-0 start-0 end-0 m-0 p-2 text-white text-center small bg-dark bg-opacity-50">As shown: $85,160. * 19/22 MPG Est. City/Hwy Rating *</p>
+                                </div>
+
+                                <div class="car-info col-12 col-lg-5 d-flex flex-column justify-content-between justify-content-lg-center p-4">
+                                    <p class="mb-2">2026</p>
+                                    <h5 class="fw-bold">Sequoia </h5>
+                                    <p>Expertly equipped and yours to <br> command. </p>
+
+                                    <div class="d-flex gap-3 mt-4">
+                                        <div>
+                                            <p class="fs-4 mb-0">$65,725</p>
+                                            <small>Starting MSRP *</small>
+                                        </div>
+                                        <div>
+                                            <p class="fs-4 mb-0">21/24</p>
+                                            <small>Up to Est. City/Hwy <br>
+                                                MPG Rating *</small>
+                                        </div>
+                                    </div>
+
+                                    <!-- دکمه‌های کارت -->
+                                    <div class="d-flex align-items-center gap-4 mt-5">
+                                        <a href="#" class="btn btn-light rounded-pill px-4 fw-bold">Explore</a>
+                                        <a href="#" class="text-black fw-bold text-decoration-none text-nowrap">Build &gt;</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        <!-- دکمه‌های قبلی و بعدی، پایین اسلایدر -->
+        <div class="carousel-button d-flex align-items-center justify-content-between justify-content-lg-center gap-5 mt-4">
+
+            <!-- دکمه قبلی -->
+            <button class="btn btn-secondary rounded-5 px-3 py-2 d-flex align-items-center justify-content-center" type="button" data-bs-target="#carsCarousel" data-bs-slide="prev">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" width="18" height="18">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                </svg>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <p class="mb-0">1 of 12</p>
+            <!-- دکمه بعدی -->
+            <button class="btn btn-dark rounded-5 px-3 py-2 me-5 d-flex align-items-center justify-content-center" type="button" data-bs-target="#carsCarousel" data-bs-slide="next">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" width="18" height="18">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                </svg>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+        </div>
+
+    </div>
+</section>
+
+    <!--------  ---------->
+    <!-- دکمه زیر اسلایدر -->
+
+    <div class="button-Explore-car d-flex flex-column mt-5 align-items-center justify-content-center">
+        <div class="button-Explore-car-01 mb-3 rounded-5 fw-bold"><a href="#" class="text-decoration-none text-black">Explore All Vehicles 
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"          stroke="currentColor"class="button-Explore-car-arrow fw-bold ms-2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+            </svg>
+        </a></div>
+
+        <div class=""><a href="#" class="text-decoration-none text-black fw-bold">Search Inventory
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="button-Explore-car-arrow fw-bold ms-2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+            </svg>
+        </a></div>
+    </div>
+
+    <!-- اتمام اسلایدر دوم -->
+
+    <!--========== ==========-->
+    <!-- بخش ابزار های خرید -->
+    
+    <div class="shopping-tools d-flex flex-column align-items-center justify-content-center mt-5 mx-4">
+
+        <h2 class="fs-1 fw-bold mt-5 mb-5">Shopping Tools</h2>
+
+        <div class="shopping-tools-items d-flex flex-wrap align-items-center justify-content-center w-100 mb-5 mt-4 rounded-3">
+
+            <div class="tool-item-01 col-6 col-lg-3 d-flex align-items-center justify-content-center px-3 py-5"><a href="#" class="text-decoration-none text-black d-flex flex-column d-flex align-items-center justify-content-center">
+                <img src="./images/shopping-tools/TDR-BuildPrice-32.svg" class="mb-2"> Build & Price
+            </a></div>
+            <div class="tool-item-02 col-6 col-lg-3 d-flex align-items-center justify-content-center px-3 py-5"><a href="#" class="text-decoration-none d-flex flex-column text-black d-flex align-items-center justify-content-center">
+                <img src="./images/shopping-tools/TDR-SearchInventory-32.svg" class="mb-2"> Search Inventory
+            </a></div>
+            <div class="tool-item-03 col-6 col-lg-3 d-flex align-items-center justify-content-center px-3 py-5"><a href="#" class="text-decoration-none text-black d-flex flex-column d-flex align-items-center justify-content-center">
+                <img src="./images/shopping-tools/TDR-LocalSpecials-32.svg" class="mb-2"> Special Offers
+            </a></div>
+            <div class="tool-item-04 col-6 col-lg-3 d-flex align-items-center justify-content-center px-3 py-5"><a href="#" class="text-decoration-none d-flex flex-column text-black d-flex align-items-center justify-content-center">
+                <img src="./images/shopping-tools/TDR-FindDealer-32.svg" class="mb-2"> Find a Dealer
+            </a></div>
+
+        </div>
+
+    </div>
+
+    <!-- عکس و صفحه خودروهای برقی -->
+
+    <div class="explore-electrified-vehicles position-relative">
+        <img src="./images/electrified-vehicles/1.jpg" alt="electrified-vehicles" class="w-100 h-100">
+
+        <div class="text-electrified-vehicles position-absolute d-flex flex-column align-items-center justify-content-center">
+            <h3 class="text-white text-center mb-3">A lineup generating <br class="d-none d-lg-block"> more possibilities.</h3>
+            <a href="#" class="text-decoration-none text-black text-center bg-white px-4 py-2 rounded-5">Explore Electrified Vehicles </a>
+
+        </div>
+        <a href="#" class="text-electrified-vehicles-info position-absolute d-flex align-items-center justify-content-center bg-black rounded-5 text-white text-decoration-none">
+            Info
+        </a>
+    </div>
+    <!-- پایان بخش -->
+
+
+    <!---------  ---------->
+    <!-- بخش روز مسابقه تویوتا -->
+
+    <section class="toyota-gameday py-4">
+        <div class="container text-center mt-3">
+      
+          <!-- بخش بالا -->
+          <p class="mb-1 fw-bold small">TOYOTA x NFL</p>
+          <h3 class="fs-5 mb-3">Toyota Gameday Giveaways</h3>
+          <a href="#" class="btn btn-dark rounded-5 px-4 mb-4">Learn More</a>
+      
+          <div id="carouselExampleIndicators" class="carousel slide mb-5">
+      
+            <div class="carousel-inner">
+    
+                <!-- اسلاید 1 -->
+              <div class="carousel-item active">
+                <img src="./images/toyota-gameday/1.jpg" class="d-block w-100" alt="img-1">
+
+                <a href="#" class="text-electrified-vehicles-info position-absolute d-flex align-items-center justify-content-center bg-black rounded-5 text-white text-decoration-none">
+                    Info
+                </a>
+              </div>
+    
+              <!-- اسلاید 2 -->
+              <div class="carousel-item">
+                <img src="./images/toyota-gameday/2.jpg" class="d-block w-100" alt="img-2">
+
+                <a href="#" class="text-electrified-vehicles-info position-absolute d-flex align-items-center justify-content-center bg-black rounded-5 text-white text-decoration-none">
+                    Info
+                </a>
+              </div>
+    
+              <!-- اسلاید 3 -->
+              <div class="carousel-item position-relative">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5 position-absolute bg-white text-black px-4 py-2 rounded-5">
+                    <path d="M6.3 2.84A1.5 1.5 0 0 0 4 4.11v11.78a1.5 1.5 0 0 0 2.3 1.27l9.344-5.891a1.5 1.5 0 0 0 0-2.538L6.3 2.841Z" />
+                </svg>
+                <img src="./images/toyota-gameday/3.jpg" class="d-block w-100" alt="img-3">
+
+                <a href="#" class="text-electrified-vehicles-info position-absolute d-flex align-items-center justify-content-center bg-black rounded-5 text-white text-decoration-none">
+                    Info
+                </a>
+              </div>
+    
+              <!-- اسلاید 4 -->
+              <div class="carousel-item position-relative">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5 position-absolute bg-white text-black px-4 py-2 rounded-5">
+                    <path d="M6.3 2.84A1.5 1.5 0 0 0 4 4.11v11.78a1.5 1.5 0 0 0 2.3 1.27l9.344-5.891a1.5 1.5 0 0 0 0-2.538L6.3 2.841Z" />
+                </svg>
+                <img src="./images/toyota-gameday/4.jpg" class="d-block w-100" alt="img-4">
+              </div>
+    
+              <!-- اسلاید 5 -->
+              <div class="carousel-item position-relative">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5 position-absolute bg-white text-black px-4 py-2 rounded-5">
+                    <path d="M6.3 2.84A1.5 1.5 0 0 0 4 4.11v11.78a1.5 1.5 0 0 0 2.3 1.27l9.344-5.891a1.5 1.5 0 0 0 0-2.538L6.3 2.841Z" />
+                </svg>
+                <img src="./images/toyota-gameday/5.jpg" class="d-block w-100" alt="img-5">
+              </div>
+      
+            </div>
+      
+            <!-- نوار پایین: دکمه چپ، نشانگرها، دکمه راست -->
+            <div class="bottom-toyota-gameday d-flex align-items-center justify-content-center mt-4">
+      
+              <button class="carousel-control-prev position-static bg-black rounded-5" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+      
+              <div class="carousel-indicators navaar-toyota-gameday position-static mx-4 my-0">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              </div>
+      
+              <button class="carousel-control-next position-static bg-black rounded-5" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+      
+            </div>
+      
+          </div>
+        </div>
+      </section>
+
+      <!-- پایان بخش -->
+
+<!--------  -------->
+    
+
+
+
+</main>
+
+
+
+
+
+<script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
