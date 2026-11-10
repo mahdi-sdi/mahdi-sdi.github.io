@@ -340,3 +340,21 @@ body{
 /* پایان بخش */
 
 /*********  *********/
+
+
+/* discover toyota */
+
+.text-discover-01{
+    font-size: 12px;
+  }
+  .discover-card-00 {
+    background-color: #3e3a3b;
+  }
+  
+  @media (min-width: 992px) {
+    .discover-card-00 .discover-img-fix {
+        height: 100%;
+        min-height: 280px;
+        max-height: 320px; 
+    }
+  }
